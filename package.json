@@ -1,0 +1,35 @@
+{
+  "name": "urn-dev",
+  "version": "0.0.1",
+  "description": "Uranio dev dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/nbl7/urn-dev.git"
+  },
+  "keywords": [
+    "uranio",
+    "urn"
+  ],
+  "author": "Andrea Reni <mail@nbl7.net>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/nbl7/urn-dev#readme",
+  "dependencies": {
+    "@types/node": "^14.11.2",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0",
+    "eslint-config-esnext": "^4.1.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "source-map-support": "^0.5.19",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.0.3"
+  }
+}
