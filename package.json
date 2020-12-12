@@ -4,7 +4,9 @@
   "description": "Uranio dev dependencies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"build": "tsc -b",
+		"start": "node -r source-map-support/register dist/index.js",
+		"dev": "./node_modules/.bin/tsc-watch --onSuccess \"node -r source-map-support/register ./dist/index.js\""
   },
   "repository": {
     "type": "git",
