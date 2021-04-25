@@ -19,6 +19,7 @@
 	"license": "ISC",
 	"homepage": "https://bitbucket.org/nbl7/urn-dev#readme",
 	"dependencies": {
+		"@types/dateformat": "^3.0.1",
 		"@types/node": "^14.11.2",
 		"@typescript-eslint/eslint-plugin": "^4.3.0",
 		"@typescript-eslint/parser": "^4.3.0",
@@ -29,9 +30,10 @@
 		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-promise": "^4.2.1",
 		"eslint-plugin-standard": "^4.0.1",
+		"eslint-plugin-vue": "^7.9.0",
+		"eslint-webpack-plugin": "^2.5.4",
 		"source-map-support": "^0.5.19",
 		"tsc-watch": "^4.2.9",
-		"typescript": "^4.0.3",
-		"@types/dateformat": "^3.0.1"
+		"typescript": "^4.0.3"
 	}
 }
