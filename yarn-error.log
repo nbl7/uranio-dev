@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/local/lib/nodejs/node-v14.2.0-linux-x64/bin/node /usr/local/lib/nodejs/node-v14.2.0-linux-x64/bin/yarn init
+
+PATH: 
+  /usr/local/lib/nodejs/node-v14.2.0-linux-x64/bin:/usr/local/lib/nodejs/node-v14.2.0-linux-x64/bin:/home/nbl7/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nbl7/.fzf/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.2.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/nodejs/node-v14.2.0-linux-x64/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:302:12)
+
+npm manifest: 
+  {
+  	"name": "urn-dev",
+  	"version": "0.0.1",
+  	"description": "Uranio dev dependencies",
+  	"scripts": {
+  		"build": "tsc -b",
+  		"start": "node -r source-map-support/register dist/index.js",
+  		"dev": "./node_modules/.bin/tsc-watch --onSuccess \"node -r source-map-support/register ./dist/index.js\""
+  	},
+  	"repository": {
+  		"type": "git",
+  		"url": "git+ssh://git@bitbucket.org/nbl7/urn-dev.git"
+  	},
+  	"keywords": [
+  		"uranio",
+  		"urn"
+  	],
+  	"author": "Andrea Reni <mail@nbl7.net>",
+  	"license": "ISC",
+  	"homepage": "https://bitbucket.org/nbl7/urn-dev#readme",
+  	"dependencies": {
+  		"@types/dateformat": "^3.0.1",
+  		"@types/node": "^14.11.2",
+  		"@typescript-eslint/eslint-plugin": "^4.3.0",
+  		"@typescript-eslint/parser": "^4.3.0",
+  		"eslint": "^7.10.0",
+  		"eslint-config-esnext": "^4.1.0",
+  		"eslint-config-node": "^4.1.0",
+  		"eslint-plugin-import": "^2.22.1",
+  		"eslint-plugin-node": "^11.1.0",
+  		"eslint-plugin-promise": "^4.2.1",
+  		"eslint-plugin-standard": "^4.0.1",
+  		"eslint-plugin-vue": "^7.9.0",
+  		"eslint-webpack-plugin": "^2.5.4",
+  		"source-map-support": "^0.5.19",
+  		"tsc-watch": "^4.2.9",
+  		"typescript": "^4.0.3"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
