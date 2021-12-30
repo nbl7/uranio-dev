@@ -1,3 +1,3 @@
-### URN-DEV
+### URANIO DEV
 
 Uranio development dependecies

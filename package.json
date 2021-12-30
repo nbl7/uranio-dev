@@ -1,5 +1,5 @@
 {
-	"name": "urn-dev",
+	"name": "uranio-dev",
 	"version": "0.0.1",
 	"description": "Uranio dev dependencies",
 	"scripts": {
@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@bitbucket.org/nbl7/urn-dev.git"
+		"url": "git+ssh://git@github.com:nbl7/urn-dev.git"
 	},
 	"keywords": [
 		"uranio",
@@ -17,7 +17,7 @@
 	],
 	"author": "Andrea Reni <mail@nbl7.net>",
 	"license": "ISC",
-	"homepage": "https://bitbucket.org/nbl7/urn-dev#readme",
+	"homepage": "https://github.com/nbl7/urn-dev#readme",
 	"dependencies": {
 		"@types/dateformat": "^3.0.1",
 		"@types/node": "^14.11.2",
