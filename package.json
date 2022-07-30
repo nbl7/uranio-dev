@@ -1,5 +1,6 @@
 {
 	"name": "uranio-dev",
+	"license": "UNLICENSED",
 	"version": "0.0.1",
 	"description": "Uranio dev dependencies",
 	"scripts": {
@@ -16,7 +17,6 @@
 		"urn"
 	],
 	"author": "Andrea Reni <108585118+x71c9@users.noreply.github.com>",
-	"license": "ISC",
 	"homepage": "https://github.com/x71c9/uranio-dev#readme",
 	"dependencies": {
 		"@types/dateformat": "^3.0.1",
