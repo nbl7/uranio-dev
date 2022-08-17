@@ -1,7 +1,7 @@
 {
 	"name": "uranio-dev",
 	"license": "UNLICENSED",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Uranio dev dependencies",
 	"scripts": {
 		"build": "tsc -b",
